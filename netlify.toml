@@ -1,0 +1,14 @@
+# إعداد نشر Netlify (لا أسرار هنا). الموقع يستعمل HashRouter فلا حاجة لقواعد إعادة توجيه.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"

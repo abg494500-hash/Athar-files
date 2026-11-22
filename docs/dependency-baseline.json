@@ -1,0 +1,137 @@
+{
+  "note": "خط أساس لسياسة الاعتماديات: يُكتب بـ`--write-baseline` بقرار مقصود ويُسجَّل في DECISIONS_LOG. لا يُحدَّث لإخفاء تحديث رئيسي.",
+  "appVersion": "0.8.2",
+  "lockfileVersion": 3,
+  "packages": {
+    "@fontsource/tajawal": {
+      "major": 5,
+      "version": "5.3.0",
+      "direct": true
+    },
+    "@supabase/supabase-js": {
+      "major": 2,
+      "version": "2.119.0",
+      "direct": true
+    },
+    "lucide-react": {
+      "major": 1,
+      "version": "1.72.0",
+      "direct": true
+    },
+    "react": {
+      "major": 18,
+      "version": "18.3.1",
+      "direct": true
+    },
+    "react-dom": {
+      "major": 18,
+      "version": "18.3.1",
+      "direct": true
+    },
+    "react-router-dom": {
+      "major": 7,
+      "version": "7.18.5",
+      "direct": true
+    },
+    "read-excel-file": {
+      "major": 9,
+      "version": "9.3.17",
+      "direct": true
+    },
+    "write-excel-file": {
+      "major": 4,
+      "version": "4.1.1",
+      "direct": true
+    },
+    "@testing-library/dom": {
+      "major": 10,
+      "version": "10.4.2",
+      "direct": true
+    },
+    "@testing-library/jest-dom": {
+      "major": 7,
+      "version": "7.0.1",
+      "direct": true
+    },
+    "@testing-library/react": {
+      "major": 16,
+      "version": "16.3.3",
+      "direct": true
+    },
+    "@testing-library/user-event": {
+      "major": 14,
+      "version": "14.6.10",
+      "direct": true
+    },
+    "@types/node": {
+      "major": 22,
+      "version": "22.20.5",
+      "direct": true
+    },
+    "@types/react": {
+      "major": 18,
+      "version": "18.3.31",
+      "direct": true
+    },
+    "@types/react-dom": {
+      "major": 18,
+      "version": "18.3.7",
+      "direct": true
+    },
+    "@vitejs/plugin-react": {
+      "major": 4,
+      "version": "4.7.0",
+      "direct": true
+    },
+    "autoprefixer": {
+      "major": 10,
+      "version": "10.6.2",
+      "direct": true
+    },
+    "jsdom": {
+      "major": 29,
+      "version": "29.1.1",
+      "direct": true
+    },
+    "postcss": {
+      "major": 8,
+      "version": "8.5.32",
+      "direct": true
+    },
+    "tailwindcss": {
+      "major": 3,
+      "version": "3.4.19",
+      "direct": true
+    },
+    "typescript": {
+      "major": 5,
+      "version": "5.9.3",
+      "direct": true
+    },
+    "vite": {
+      "major": 6,
+      "version": "6.4.6",
+      "direct": true
+    },
+    "vitest": {
+      "major": 5,
+      "version": "5.1.0",
+      "direct": true
+    },
+    "react-router": {
+      "major": 7,
+      "version": "7.18.5",
+      "direct": false
+    },
+    "esbuild": {
+      "major": 0,
+      "version": "0.25.12",
+      "direct": false
+    },
+    "rollup": {
+      "major": 4,
+      "version": "4.68.2",
+      "direct": false
+    }
+  }
+}

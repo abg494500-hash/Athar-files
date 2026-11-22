@@ -1,0 +1,8 @@
+# Copy this file as .env.local in the project root (next to package.json).
+# Put YOUR two values only. Never put service_role, secret keys, or the database password here.
+VITE_SUPABASE_URL=https://YOUR-PROJECT-REF.supabase.co
+VITE_SUPABASE_ANON_KEY=YOUR-PUBLISHABLE-OR-ANON-KEY
+
+# اختياري (دخول المعلمات وتنزيل/أرشفة الإدارة): عنوان دالة Edge «api» بعد نشرها، مثل https://YOUR-PROJECT-REF.supabase.co/functions/v1/api
+# اتركيه محذوفًا ما لم تُنشر الدالة (تبقى هذه الميزات «غير متاحة»). عنوان عام وليس سرًّا؛ لا تضعي هنا أي سر.
+# VITE_TEACHER_API_URL=https://YOUR-PROJECT-REF.supabase.co/functions/v1/api

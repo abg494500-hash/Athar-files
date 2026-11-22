@@ -1,0 +1,19 @@
+{
+ "files": [
+  {
+   "name": "index.html",
+   "size": 504,
+   "sha256": "2046cb1be774f65c96d317d7e0cbf7eebf7460315b3fbeeee7677a78620670be"
+  },
+  {
+   "name": "app.js",
+   "size": 303451,
+   "sha256": "528d53e3ac2af381fb48689bda743524d0bf9823603c48a699d165285bb167de"
+  },
+  {
+   "name": "app.css",
+   "size": 214346,
+   "sha256": "33c84267788a1eaedf37934993efd7d60df501a52670854dd7224a9927e58625"
+  }
+ ]
+}

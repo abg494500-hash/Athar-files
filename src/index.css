@@ -1,0 +1,32 @@
+@import '@fontsource/tajawal/arabic-400.css';
+@import '@fontsource/tajawal/arabic-500.css';
+@import '@fontsource/tajawal/arabic-700.css';
+@import '@fontsource/tajawal/latin-400.css';
+@import '@fontsource/tajawal/latin-500.css';
+@import '@fontsource/tajawal/latin-700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-snow-100 text-ink-900 font-sans antialiased; font-size: 16px; line-height: 1.75; background-image: radial-gradient(56rem 24rem at 100% -8%, rgba(207,227,244,.55), transparent 65%); background-repeat: no-repeat; }
+  :focus-visible { outline: 3px solid #6c87a6; outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: #cfe3f4; }
+  button, [role='button'] { touch-action: manipulation; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+}
+
+@layer components {
+  .skeleton { @apply animate-pulse rounded-xl bg-steel-100; }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+@media print {
+  aside, header, .print\:hidden { display: none !important; }
+  body { background: #fff; }
+  main { max-width: none !important; padding: 0 !important; }
+}

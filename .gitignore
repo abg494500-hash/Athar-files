@@ -1,0 +1,15 @@
+node_modules
+dist
+*.tsbuildinfo
+.env
+.env.*
+.review-tmp
+
+supabase/functions/**/.env
+supabase/.env
+supabase/.temp
+
+.env.local
+.env
+node_modules
+dist
