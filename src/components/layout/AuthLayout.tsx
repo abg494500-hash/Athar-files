@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { LogoMark } from './Brand'
+import { Credits } from './Credits'
 
 /** أوراق زخرفية هادئة في الزوايا (SVG، بلا صور خارجية): تُحاكي أوراق الشعار بشفافية عالية. */
 function Leaves({ className }: { className?: string }) {
@@ -22,6 +23,7 @@ export function AuthLayout({ children, wide = false }: { children: ReactNode; wi
       <Leaves className="pointer-events-none absolute -bottom-10 -end-10 size-72 sm:size-96" />
       <Leaves className="pointer-events-none absolute -start-16 -top-16 size-60 -scale-x-100 rotate-180 opacity-70 sm:size-80" />
       <main className={wide ? 'relative w-full max-w-xl' : 'relative w-full max-w-[26rem]'}>{children}</main>
+      <Credits className="mt-6" />
     </div>
   )
 }

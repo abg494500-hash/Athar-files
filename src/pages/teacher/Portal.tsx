@@ -10,6 +10,7 @@ import { ErrorState, PageSkeleton } from '../../components/ui/States'
 import { TEACHER_AUTH_MESSAGES, uploadMessage } from '../../lib/teacherAuth/client'
 import type { PortalSlot, PortalTerm, PortalVersion, Portfolio, UploadStage } from '../../lib/teacherAuth/client'
 import { useTeacherPortal } from '../../lib/teacherAuth/TeacherPortalContext'
+import { Credits } from '../../components/layout/Credits'
 
 /**
  * بوابة المعلمة: فصولها بمواعيد كل فصل المستقلة، وخاناتها، وإصداراتها؛ رفع ملف جديد، واستبداله ضمن مهلة الفصل، وحفظ رابط خارجي، وتنزيل ملفاتها.
@@ -234,6 +235,7 @@ export default function Portal() {
           <Field label="الرابط">{({ id }) => <Input id={id} dir="ltr" inputMode="url" autoComplete="off" value={linkUrl} onChange={(e) => setLinkUrl(e.target.value)} className="text-start" placeholder="https://" />}</Field>
         </Dialog>
       </main>
+      <Credits />
     </div>
   )
 }

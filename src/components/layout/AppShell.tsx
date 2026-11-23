@@ -6,6 +6,7 @@ import { cn } from '../../lib/cn'
 import { useStore } from '../../data/store'
 import { VolatileDataNotice } from '../domain/VolatileDataNotice'
 import { HOME_PATH, sectionsFor, type StaffRole } from '../../lib/sections'
+import { Credits } from './Credits'
 
 /**
  * الهيكل الموحّد لكل الأدوار بعد الدخول (إعادة التصميم 0.6.3، قرار A-92):
@@ -67,6 +68,7 @@ export function AppShell({ role, roleLabel, userName, children }: Props) {
         {staff && !onHome && <SectionBar role={role} />}
       </header>
       <main className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6 lg:py-8"><VolatileDataNotice className="mb-5" />{children}</main>
+      <Credits />
     </div>
   )
 }
