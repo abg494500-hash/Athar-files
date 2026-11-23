@@ -25,6 +25,15 @@ function Shell({ title, children, other }: { title: string; children: ReactNode;
   return (
     <AuthLayout>
       <AuthHeading title={title} />
+      <div className="mb-6 flex flex-col items-center text-center" aria-label="نوثّق إنجازاتنا اليوم، لنصنع أثرًا يبقى غدًا">
+        <div className="mb-3 flex w-44 items-center gap-2" aria-hidden>
+          <span className="h-px flex-1 bg-gradient-to-l from-gold-400/70 to-transparent" />
+          <span className="size-1.5 rotate-45 bg-gold-400" />
+          <span className="h-px flex-1 bg-gradient-to-r from-gold-400/70 to-transparent" />
+        </div>
+        <p className="text-[1.35rem] font-bold leading-snug text-forest-800 sm:text-2xl">نوثّق إنجازاتنا اليوم،</p>
+        <p className="mt-0.5 text-[1.15rem] font-medium leading-snug text-gold-700 sm:text-xl">لنصنع أثرًا يبقى غدًا</p>
+      </div>
       <div className="rounded-3xl border border-paper-300 bg-white p-6 shadow-soft sm:p-8">{children}</div>
       <VolatileDataNotice className="mt-4" />
       <div className="mt-5 flex flex-col items-center gap-1 text-[15px]">

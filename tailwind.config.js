@@ -3,7 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
-      fontFamily: { sans: ['Tajawal', 'system-ui', 'sans-serif'] },
+      fontFamily: { sans: ['Tajawal', 'system-ui', 'sans-serif'], ruqaa: ['"Aref Ruqaa"', 'Tajawal', 'serif'] },
       colors: {
         // لوحة باردة هادئة (إعادة التصميم، قرار A-91): أزرق رمادي · أزرق ثلجي · لافندر · أبيض بارد.
         // الشعار نفسه لم يُعدَّل (أخضر وذهبي) ويُعرض داخل إطاره الأصلي.
