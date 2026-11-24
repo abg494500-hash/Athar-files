@@ -36,7 +36,10 @@ export function AuthLayout({ children, wide = false }: { children: ReactNode; wi
       {/* المحتوى في النصف الأيسر على الشاشات الواسعة ليبقى المشهد (الأقلام) ظاهرًا يمينًا */}
       <div className="relative mt-32 flex w-full flex-col items-center sm:mt-24 lg:w-[50%] lg:self-end">
         <main className={wide ? 'relative w-full max-w-xl' : 'relative w-full max-w-[26rem]'}>{children}</main>
-        <Credits className="mt-6" />
+        {/* سطرا الإعداد والإشراف: لوحة بيضاء شبه معتمة ونص أخضر داكن واضح، والأسماء بالذهبي الداكن العريض (تغلب ألوان Credits الباهتة) */}
+        <div className="mt-6 rounded-2xl border border-paper-300 bg-white/80 px-5 py-3 shadow-soft backdrop-blur-sm [&_*]:!text-[14px] [&_*]:!leading-7 [&_*]:!text-forest-800 sm:[&_*]:!text-[15px] [&_.font-bold]:!font-extrabold [&_.font-bold]:!text-gold-700 [&_.font-semibold]:!font-extrabold [&_.font-semibold]:!text-gold-700 [&_b]:!font-extrabold [&_b]:!text-gold-700 [&_strong]:!font-extrabold [&_strong]:!text-gold-700">
+          <Credits />
+        </div>
       </div>
     </div>
   )
